@@ -1,0 +1,39 @@
+Langchain Demo with OpenAI API
+This project demonstrates the integration of Langchain with OpenAI's GPT-3.5-turbo model using Streamlit for building a simple chatbot application.
+
+Features
+Streamlit Integration: A user-friendly web interface to interact with the chatbot.
+Langchain Prompt Template: Utilizes Langchain's prompt templates for structured input.
+OpenAI GPT-3.5-turbo: Leverages the powerful GPT-3.5-turbo model for generating responses.
+Installation
+Clone the repository:
+
+
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+Create and activate a virtual environment:
+
+
+python -m venv .venv
+.venv\Scripts\activate  # On Windows
+# source .venv/bin/activate  # On macOS/Linux
+Install the required dependencies:
+
+
+pip install -r requirements.txt
+Environment Variables
+Create a .env file in the root directory with the following content:
+
+env
+Copy code
+OPENAI_API_KEY=your-openai-api-key
+LANGCHAIN_API_KEY=your-langchain-api-key
+LANGCHAIN_TRACING_V2=true
+Running the Application
+To run the Streamlit application, use the following command:
+
+streamlit run app.py
+Access the application in your browser at http://localhost:8501.
+
+Contributing
+Feel free to open issues or submit pull requests for improvements or bug fixes.
